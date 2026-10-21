@@ -1,0 +1,13 @@
+{
+  "name": "ffmpeg",
+  "version": "0.12.10",
+  "license": "MIT (core: LGPL-2.1)",
+  "entry": "vendor/ffmpeg/ffmpeg.js (classic UMD, global FFmpegWASM.FFmpeg; load({coreURL:'./vendor/ffmpeg/ffmpeg-core.js', wasmURL:'./vendor/ffmpeg/ffmpeg-core.wasm'}); single-threaded core, no SharedArrayBuffer needed)",
+  "sources": {
+    "ffmpeg.js": "https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.10/dist/umd/ffmpeg.js",
+    "814.ffmpeg.js": "https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.10/dist/umd/814.ffmpeg.js",
+    "ffmpeg-core.js": "https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.10/dist/umd/ffmpeg-core.js",
+    "ffmpeg-core.wasm": "https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.10/dist/umd/ffmpeg-core.wasm",
+    "LICENSE": "https://raw.githubusercontent.com/ffmpegwasm/ffmpeg.wasm/main/LICENSE"
+  }
+}
